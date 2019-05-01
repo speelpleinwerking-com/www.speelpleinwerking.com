@@ -1,0 +1,4 @@
+public/
+content/speelplein/*.md
+!content/speelplein/_index.md
+

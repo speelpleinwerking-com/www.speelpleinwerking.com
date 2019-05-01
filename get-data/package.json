@@ -1,0 +1,25 @@
+{
+  "name": "@speelpleinwerking.com/page-creator",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speelpleinwerking-com/www.speelpleinwerking.com.git"
+  },
+  "author": "Thomas Toye",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/speelpleinwerking-com/www.speelpleinwerking.com/issues"
+  },
+  "homepage": "https://github.com/speelpleinwerking-com/www.speelpleinwerking.com#readme",
+  "devDependencies": {
+    "@speelpleinwerking.com/example-data": "0.0.4",
+    "@speelpleinwerking.com/protobufs": "^0.1.4",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
