@@ -12,5 +12,26 @@ The dynamic data creates `.md` files in `content/speelplein`. These files should
 
 ## Deployment
 
-To be documented (Firebase Hosting).
+### Dependencies
+
+* [Hugo](https://gohugo.io/)
+* [firebase-tools](https://www.npmjs.com/package/firebase-tools) (`npm install -g firebase-tools`) - don't forget to log in.
+
+### Staging
+
+```
+$ firebase use staging
+$ rm -rf public # optional
+$ hugo
+$ firebase deploy
+```
+
+### Production
+
+```
+$ firebase use default
+$ rm -rf public # optional
+$ hugo
+$ firebase deploy
+```
 

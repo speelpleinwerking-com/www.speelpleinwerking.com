@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "speelpleinwerking-com",
+    "staging": "speelpleinwerking-com-staging"
+  }
+}
